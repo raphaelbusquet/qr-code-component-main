@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "disown-opener": "off",
+    "detect-css-reflows/layout": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "text-justify",
+          "width: fit-content",
+          "max-width: fit-content"
+        ]
+      }
+    ]
+  }
+}
